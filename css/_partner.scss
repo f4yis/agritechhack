@@ -15,4 +15,30 @@
     #businessincubation{
         margin-top: 3px;
     }
+    //brace yourself media queries are on the way.
+    @media screen and (max-width: $md) {
+    position:relative;
+    width: 100%;
+    h4{
+        text-align: center;
+        
+    }
+    #image{
+        width:100%;
+    img{
+        position:absolute;
+        margin:5px 0px 0px 0px;
+        height: 20px;
+        left: 50%;
+       transform: translate(-50%,0%);
+    }
+    #hacksterlogo{
+        top: 0px;
+    }
+    #businessincubation{
+        top:25px;
+        height: 30px;
+    }
+    }
+  }
 }

@@ -6679,3 +6679,23 @@ button.close {
     height: 30px; }
   #partners #businessincubation {
     margin-top: 3px; }
+  @media screen and (max-width: 768px) {
+    #partners {
+      position: relative;
+      width: 100%; }
+      #partners h4 {
+        text-align: center; }
+      #partners #image {
+        width: 100%; }
+        #partners #image img {
+          position: absolute;
+          margin: 5px 0px 0px 0px;
+          height: 20px;
+          left: 50%;
+          -webkit-transform: translate(-50%, 0%);
+                  transform: translate(-50%, 0%); }
+        #partners #image #hacksterlogo {
+          top: 0px; }
+        #partners #image #businessincubation {
+          top: 25px;
+          height: 30px; } }
