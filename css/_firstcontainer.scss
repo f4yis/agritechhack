@@ -1,0 +1,45 @@
+ #firstcontainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background:$navbarcolor;
+    background: url("../assets/first.png");
+    
+      height:90vh;
+      background-size: cover;
+      position: relative;;
+      #centertextcontainer{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: (translate(-50%, -60%));
+      }
+      #buttoncontainer{
+        position:absolute;
+        top:80%;
+        left: 50%;
+        transform: (translate(-50%, -10%));
+        button{
+          height: 50px;
+          width: 200px;
+          padding-top: -30px;
+
+          border-radius:8px;
+          background-color: $color2;
+          
+          box-shadow: 3px 3px;
+          h3{
+            padding:  0px 0px 0px 0px;
+            margin:  0px 0px 0px 0px;
+            color: $navbarcolor;
+            font-family: $headingfont;
+            font-size: 25px;
+          }
+        }
+        button:hover{
+          
+          box-shadow: 1px 1px;
+        }
+      }
+
+      //media queries are remaining
+  }

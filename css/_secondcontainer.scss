@@ -1,0 +1,16 @@
+#secondcontainerouterwrapper{
+    background: $color2;
+    #secondcontainer{
+        h2{
+        font-family: $headingfont;
+            margin: 70px auto 50px auto;
+    color: $navbarcolor;
+    
+}
+p{
+    font-size: 20px;
+    color: $navbarcolor;
+    padding-bottom: 80px;
+}
+    }
+}

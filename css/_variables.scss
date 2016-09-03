@@ -1,0 +1,23 @@
+$navbarcolor:#9ebf6d;
+$color2:#E4F1C3;
+$color3:#BBE2BC;
+$headingfont:'Oswald', sans-serif;
+$contentfont:'Lato', sans-serif;
+$xs:360px;
+$sm:480px;
+$md:760px;
+$ls:1000px;
+$xl:1440px;
+
+
+//initialising
+p, a, li{
+    font-family: $contentfont;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $headingfont;
+}
+html, body{
+    background: $color2;
+}

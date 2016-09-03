@@ -1,0 +1,20 @@
+#footer{
+    background: $navbarcolor;
+    position: relative;
+.textpart{
+h3, p, h4{
+    text-align: left;
+    font-family: $headingfont;
+    color: $color2;
+}
+  margin-top:100px;
+  margin-bottom:100px;
+} 
+
+a{
+color: $color2;
+font-family: $headingfont;
+font-size: 18px;
+
+}
+}
