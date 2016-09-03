@@ -38,7 +38,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#firstcontainer">HOME</a></li>
         <li><a href="#secondcontainer">ABOUT US</a></li>
-        <li><a href="#">FAQ</a></li>
+        <li><a data-toggle="modal" data-target="#FAQ">FAQ</a></li>
         <li><a href="#footer">CONTACT US</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -55,11 +55,53 @@
 </div>
 </div>
     <!--container one ends here-->
+     <!--modal for the FAQ begins-->
+     <div class="modal" id="FAQ" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">FAQ</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li><h4>Important Dates</h4><p>September 3 open for application<br>
+September 15 last day for application<br>
+September 15-18 selection period<br>
+September 18 selected teams are announced<br>
+September 27-28 Hackathon</p></li>
+          <li> <h4>Do i need to bring my laptop and other devices?</h4>
+          <p>Yes, you need to bring your own devices. If, in any exceptional case, there is any hardware or software requirement, the same should be mentioned along with proposal submission, so that it can be arranged, prior to the event.</p> </li>
+          <li><h4>Will accommodation be provided?</h4>
+          <p>Rooms will be provided for the participants during the event days.</p></li>
+          <li><h4>Will food be provided?</h4>
+          <p>Food coupons will be provided, which can be used at the canteens at the Infopark. Snacks and beverages will be available during the event.</p></li>
+          <li><h4>Is there any re-imbursement for travel?</h4><p>No, we do not offer any reimbursement for travel expenses</p></li>
+          <li><h4>Will internet connection be provided?</h4><p>Yes. It will have standard filters applied</p></li>
+          <li><h4>Will there be sufficient number of power sockets?</h4><p>Power outputs will be available. However, it is recommended that you bring along, the extension cords. </p></li>
+          <li><h4>Will there be prizes or awards?</h4><p>
+            25000+Haxter.io kit for winners.<br> 
+            10000+raspberry pi 3 for 2nd.<br>
+Moreover lots of goodies and swags for all</p></li>
+          <li><h4>I don’t want my solution to be made public, yet I want to participate. Is that possible?
+</h4><p>Yes, you can participate in the event. The presentation and demo of the solution can be made discreet with the panel members, only, having access to it.
+</p></li>
+          
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <!--Modal for the FAQ ends-->
     <!-- container two starts-->
     <div class="container-fluid" id="secondcontainerouterwrapper">
       <div class="container" id="secondcontainer">
         <h2 class="text-center">ITS ALL ABOUT BEING GREEN.</h2>
-        <p class="center-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus augue, dictum in ullamcorper id, porttitor eu lectus. Phasellus quam nisl, vulputate vel ultrices eu, rutrum quis lacus. Maecenas sit amet tincidunt sapien. Aenean porttitor elit felis. Morbi gravida lectus id metus luctus commodo. Etiam sodales rhoncus purus ut viverra. Fusce sagittis elementum pretium. Morbi facilisis faucibus odio id accumsan. Ut risus felis, placerat et dui vitae, aliquet fermentum urna. Etiam varius mauris tempus libero ornare, a semper tortor consequat. Suspendisse vestibulum placerat lectus vel consequat. Fusce scelerisque tristique tortor, non blandit ex bibendum eget. Etiam volutpat diam vitae enim viverra euismod.</p></div>
+        <p class="center-block">Agriculture in India is a $370 billion sector. But there is only little application of technology. By implementing technology we can improve productivity and hence bring our economy to its greatness. We are calling startups, students  to develop solutions for challenges faced by agriculture sector. Do it for India, we know you are going to build something great.</p></div>
       
     </div>
     <!--container two ends-->
@@ -78,17 +120,16 @@
 <!--footer begins here-->
 <div class="container-fluid" id="footer">
   <div class="row">
-<div class="col-xs-3 col-xs-offset-1 textpart" id="register">
+<div class="col-sm-3 col-sm-offset-1 textpart" id="register">
   <h3>REGISTER YOUR WAY IN.</h3>
   <a href="linktogoogleform">FIll Up The Form Here</a>
 
 
 </div>
-    <div class="col-xs-3 col-xs-offset-5 textpart" id="contactdetails">
+    <div class="col-sm-3 col-sm-offset-5 textpart" id="contactdetails">
       <h3>CONTACT US.</h3>
       <h4> Haani Hashim svp</h4>
      <a href="mailto:haani@hack4agriculture.com"> Email Us</a>
-
     </div>
   </div>
 </div>
@@ -114,6 +155,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script> 
   </body>
 </html>
 
