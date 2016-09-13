@@ -7017,3 +7017,84 @@ Main Components
         #partners #image #businessincubation {
           top: 25px;
           height: 30px; } }
+
+#partner{
+  padding:20px 0;
+}
+#partner h3{
+  font-size: 23px;
+  color:#202020;
+}
+#partner img{
+  width: 100%;
+}
+#partner .sum{
+  max-width: 300px;
+  display: block;
+  text-align: center;
+  margin:10px auto 100px auto;
+}
+#partner .col-sm-2{
+  height: 160px;
+
+}
+#partner .col-sm-2 img{
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+  #speakers{
+    background: #E4F1C3;
+    padding:20px 0;
+  }
+  #speakers h2{
+    margin-bottom: 20px;
+    color:#9ebf6d;
+  }
+  #speakers img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  #speakers h5{
+    font-size: 22px;
+    color:#555;
+    margin: 15px 0;
+  }
+  #speakers p{
+    font-size: 16px;
+    color: #666;
+    line-height: 150%;
+  }
+  .speaker{
+    margin:20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bcd37c;
+  }
+  #prize{
+    text-align: center;
+    margin:50px 0;
+  }
+  #prize img{
+    width:100px;
+    border-radius: 10px;
+  }
+  #prize h3{
+    font-style: 19px;
+  }
+  #prize p{
+    font-size: 16px;
+    color:#505050;
+    margin:0 60px;
+  }
+  .event-date{
+    text-align: center;
+    font-size: 25px;
+    color:#E4F1C2;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
