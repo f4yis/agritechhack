@@ -8712,3 +8712,7 @@ Main Components
     font-weight: 300;
     color: #89a363;
 }
+
+.center-block {
+    max-width: 480px;
+}
