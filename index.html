@@ -1,17 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Agritech Hackathon</title>
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
-    <script>$('body').scrollspy({ target: '#navbar-example' })</script>
+    <script>
+        $('body').scrollspy({
+            target: '#navbar-example'
+        })
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,235 +23,274 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target="#navbarspy">
+</head>
+
+<body data-spy="scroll" data-target="#navbarspy">
     <!--navbar begins-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbarspy">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    </div>
+            </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#firstcontainer">HOME</a></li>
-        <li><a href="#secondcontainer">ABOUT US</a></li>
-        <li><a data-toggle="modal" data-target="#FAQ">FAQ</a></li>
-        <li><a href="#footer">CONTACT US</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#firstcontainer">HOME</a></li>
+                    <li><a href="#secondcontainer">ABOUT US</a></li>
+                    <li><a data-toggle="modal" data-target="#FAQ">FAQ</a></li>
+                    <li><a href="#footer">CONTACT US</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
     <!--navbar ends-->
     <!--container one starts here-->
-<div class="container-fluid" id="firstcontainer">
-  <div id="centertextcontainer">
-  <img src="assets/centertext.png" class="img-responsive center-block" alt="" id="centertext">
-  <p class="event-date">September 29 - 30</p>
-  </div>
-  <div id="buttoncontainer">
-  <button id="register"><a href="https://docs.google.com/forms/d/1fJFJlhUAXHUy1zpLNegc2kL9oYiHKFNMRQ57zjhHVLY/"><h3>REGISTER NOW</h3></a></button>
-</div>
-</div>
-    <!--container one ends here-->
-     <!--modal for the FAQ begins-->
-     <div class="modal" id="FAQ" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">FAQ</h4>
-      </div>
-      <div class="modal-body">
-        <ul>
-          <li><h4>Important Dates</h4><p>September 10 open for application<br>
-September 22 last day for application<br>
-September 25 selected teams are announced<br>
-September 29-30 Hackathon</p></li>
-          <li> <h4>Do i need to bring my laptop and other devices?</h4>
-          <p>Yes, you need to bring your own devices. If, in any exceptional case, there is any hardware or software requirement, the same should be mentioned along with proposal submission, so that it can be arranged, prior to the event.</p> </li>
-          <li><h4>Will accommodation be provided?</h4>
-          <p>Rooms will be provided for the participants during the event days.</p></li>
-          <li><h4>Is there any re-imbursement for travel?</h4><p>No, we do not offer any reimbursement for travel expenses</p></li>
-          <li><h4>Will internet connection be provided?</h4><p>Yes. It will have standard filters applied</p></li>
-          <li><h4>Will there be sufficient number of power sockets?</h4><p>Power outputs will be available. However, it is recommended that you bring along, the extension cords. </p></li>
-          <li><h4>Will there be prizes or awards?</h4><p>
-            25000+Hackster.io kit for winners.<br> 
-            10000+raspberry pi 3 for 2nd.<br>
-Moreover lots of goodies and swags for all</p></li>
-          <li><h4>I don’t want my solution to be made public, yet I want to participate. Is that possible?
-</h4><p>Yes, you can participate in the event. The presentation and demo of the solution can be made discreet with the panel members, only, having access to it.
-</p></li>
-          
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <div class="container-fluid" id="firstcontainer">
+        <div id="centertextcontainer">
+            <img src="assets/centertext.png" class="img-responsive center-block" alt="" id="centertext">
+            <p class="event-date">September 29 - 30 2016</p>
+        </div>
+        <div id="buttoncontainer">
+            <button id="register"><a href="https://docs.google.com/forms/d/1fJFJlhUAXHUy1zpLNegc2kL9oYiHKFNMRQ57zjhHVLY/"><h3>REGISTER NOW</h3></a></button>
+        </div>
     </div>
-  </div>
-</div>
-     <!--Modal for the FAQ ends-->
+    <!--container one ends here-->
+    <!--modal for the FAQ begins-->
+    <div class="modal" id="FAQ" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">FAQ</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <h4>Important Dates</h4>
+                            <p>September 10 open for application<br> September 22 last day for application<br> September 25 selected teams are announced<br> September 29-30 Hackathon</p>
+                        </li>
+                        <li>
+                            <h4>Do i need to bring my laptop and other devices?</h4>
+                            <p>Yes, you need to bring your own devices. If, in any exceptional case, there is any hardware or software requirement, the same should be mentioned along with proposal submission, so that it can be arranged, prior to the event.</p>
+                        </li>
+                        <li>
+                            <h4>Will accommodation be provided?</h4>
+                            <p>Rooms will be provided for the participants during the event days.</p>
+                        </li>
+                        <li>
+                            <h4>Is there any re-imbursement for travel?</h4>
+                            <p>No, we do not offer any reimbursement for travel expenses</p>
+                        </li>
+                        <li>
+                            <h4>Will internet connection be provided?</h4>
+                            <p>Yes. It will have standard filters applied</p>
+                        </li>
+                        <li>
+                            <h4>Will there be sufficient number of power sockets?</h4>
+                            <p>Power outputs will be available. However, it is recommended that you bring along, the extension cords. </p>
+                        </li>
+                        <li>
+                            <h4>Will there be prizes or awards?</h4>
+                            <p>
+                                25000+Hackster.io kit for winners.<br> 10000+raspberry pi 3 for 2nd.<br> Moreover lots of goodies and swags for all</p>
+                        </li>
+                        <li>
+                            <h4>I don’t want my solution to be made public, yet I want to participate. Is that possible?
+                            </h4>
+                            <p>Yes, you can participate in the event. The presentation and demo of the solution can be made discreet with the panel members, only, having access to it.
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal for the FAQ ends-->
     <!-- container two starts-->
     <div class="container-fluid" id="secondcontainerouterwrapper">
-      <div class="container" id="secondcontainer">
-        <h2 class="text-center">ITS ALL ABOUT BEING GREEN.</h2>
-        <p class="center-block">Agriculture in India is a $370 billion sector. But there is only little application of technology. By implementing technology we can improve productivity and hence bring our economy to its greatness. We are calling startups, students  to develop solutions for challenges faced by agriculture sector. Do it for India, we know you are going to build something great.</p></div>
-      
+        <div class="container" id="secondcontainer">
+            <h2 class="text-center">INNOVATION TO THE ROOTS</h2>
+            <p class="center-block">
+                Agriculture in India is a $370 billion sector .But there is only little application of technology. By using technology we can improve productivity and help the farmers get better yield,better predictability, improve their income and and help with food
+                security.
+                <br/><br/> Join us for a 32 hour hackathon contest where the best and brightest minds unite to transform their idea into working prototypes! Don't miss this golden opportunity to brainstorm,pitch and validate your ideas directly to business
+                users.Angel investors and Incubators etc.
+                <br/><br/> Do it for India! We know you are going to build something great.
+            </p>
+        </div>
+
     </div>
     <!--container two ends-->
     <!--container three starts-->
-<div class="container-fluid" id="thirdcontainer">
-  <h2 class="text-center">ITS HOSTED HERE.</h2> </div>
-<div class="container-fluid" id="mapcontainer">
-  <div class="overlay" onClick="style.pointerEvents='none'"></div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.0112798675177!2d75.28645541484111!3d12.04274419146994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba414d354842bc5%3A0x39d759cef51ae3bb!2sCollege+of+Applied+Science+Neruvambram!5e0!3m2!1sen!2sin!4v1472588415745" frameborder="0" style="border:0" allowfullscreen scrolling="no"></iframe></div>
-<!--container three ends-->
-<!-- speakers start -->
-<div id="speakers">
-  <div class="container">
-    <h2 class="text-center">Speakers</h2>
-    <div class="speaker row">
-      <div class="col-sm-2">
-        <img src="https://s16.postimg.org/4levqb5cl/speaker1.png">
-      </div>
-      <div class="col-sm-8">
-        <h5>Nagraja prakasam (Angel investor, Mentor, Fund advisor)</h5>
-          <p>
-            Nagaraja (Naga) Prakasam is a versatile and passionate leader with 2+ decades of global experience (decade in the USA and a decade + in India). As a full time angel investor, invested in 16 start­ups and seen 3 exits. Spearheaded Impact thinking in Indian Angel Network and co­founded IAN Impact.
-          </p>
-      </div>
+    <div class="container-fluid" id="thirdcontainer">
+        <h2 class="text-center">ITS HOSTED HERE.</h2>
+        <h5 class="location">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> College of Applied Sciences Neruvambram,Kannur<br/><small>30 Km from Kannur Bus stand<br/>5 Km from Payangadi Railway station.</small>
+        </h5>
+    </div>
+    <div class="container-fluid" id="mapcontainer">
+        <div class="overlay" onClick="style.pointerEvents='none'"></div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.0112798675177!2d75.28645541484111!3d12.04274419146994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba414d354842bc5%3A0x39d759cef51ae3bb!2sCollege+of+Applied+Science+Neruvambram!5e0!3m2!1sen!2sin!4v1472588415745"
+            frameborder="0" style="border:0" allowfullscreen scrolling="no"></iframe></div>
+    <!--container three ends-->
+    <!-- speakers start -->
+    <div id="speakers">
+        <div class="container">
+            <h2 class="text-center">Speakers</h2>
+            <div class="speaker row">
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/4levqb5cl/speaker1.png">
+                </div>
+                <div class="col-sm-8">
+                    <h5>Nagraja prakasam (Angel investor, Mentor, Fund advisor)</h5>
+                    <p>
+                        Nagaraja (Naga) Prakasam is a versatile and passionate leader with 2+ decades of global experience (decade in the USA and a decade + in India). As a full time angel investor, invested in 16 start­ups and seen 3 exits. Spearheaded Impact thinking in Indian
+                        Angel Network and co­founded IAN Impact.
+                    </p>
+                </div>
+            </div>
+
+            <div class="speaker row">
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/6rdryjy6t/speaker2.png">
+                </div>
+                <div class="col-sm-8">
+                    <h5>Member from villgro</h5>
+                    <p>
+                        India's leading social enterprise incubator, supporting social entrepreneurs in their early stages of growth. Since 2001, Villgro has incubated 119 such enterprises, which have secured Rs 1195 million in follow­on funding, and touched over 15 million
+                        lives.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="speaker row">
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/pxqz1qeol/speaker3.png">
+                </div>
+                <div class="col-sm-8">
+                    <h5>Arun Nair (Heading Nasscom 10000 Startups Cochin)</h5>
+                    <p>
+                        10000startups is one of India's most ambitious startup program. www.10000startups.com 10,000 Start­ups is an initiative of NASSCOM with Google as prime sponsor. It is aimed at incubating, funding and supporting 10,000 technology start­ups in India over
+                        the next ten years
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- speakers end -->
+    <!--tweetbutton starts-->
+    <div class="container-fluid" id="tweetsection">
+        <h2 class="text-center">ITS TIME TO SHOUT OUT.</h2>
+        <button><a href="https://twitter.com/intent/tweet?button_hashtag=AgritechHackathon">#TWEETABOUTUS</a></button>
+    </div>
+    <!--tweet button ends-->
+    <!--prize starts -->
+    <div id="prize">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="https://s10.postimg.org/8bzvjrf95/hackster.png">
+                    <h3>25000Rs + Hackster.io kit</h3>
+                    <p>We are giving the &#8377 25000 and a Hackster Kit for the team who get first prize</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="https://s10.postimg.org/e1g442lfd/images.png">
+                    <h3>10000Rs + Raspberry PI 3</h3>
+                    <p>We are giving the &#8377 10000 and a Raspberry PI 3 for the team who get second prize</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--prize end -->
+
+    <!--footer begins here-->
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-1 textpart" id="register">
+                <h3>AgriTech Hackathon 2016</h3>
+                <p>
+                    The AgriTech Hackathon will bring together 36-40 talented developers,students,startups who are passionate about building impactful solutions
+                </p>
+                <a href="https://docs.google.com/forms/d/1fJFJlhUAXHUy1zpLNegc2kL9oYiHKFNMRQ57zjhHVLY/">Fill Up The Form Here</a>
+
+
+            </div>
+            <div class="col-sm-3 col-sm-offset-5 textpart" id="contactdetails">
+                <h3>CONTACT US.</h3>
+                <h4> Haani Hashim svp</h4>
+                <h4> +91 944 738 1142</h4>
+                <a href="mailto:haani@hack4agriculture.com">haani@hack4agriculture.com</a>
+
+            </div>
+        </div>
     </div>
 
-    <div class="speaker row">
-      <div class="col-sm-2">
-        <img src="https://s16.postimg.org/6rdryjy6t/speaker2.png">
-      </div>
-      <div class="col-sm-8">
-        <h5>Member from villgro</h5>
-          <p>
-            India's leading social enterprise incubator, supporting social entrepreneurs in their early stages of growth. Since 2001, Villgro has incubated 119 such enterprises, which have secured Rs 1195 million in follow­on funding, and touched over 15 million lives.
+    <!-- patner area -->
+    <div id="partner">
+        <div class="container">
+            <h3>Our Supporters :</h3>
+            <img class="sum" src="https://s18.postimg.org/dh8ujball/013eee39.png">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="assets/hackster.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/businessincubationcenter.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s13.postimg.org/ro2vr1lon/3.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/wkejxsrph/4.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/h07679hl1/5.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/qm5c1ay4l/6.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/63afw8k79/7.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/6u3620mkl/8.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s16.postimg.org/o8neaajph/9.png">
+                </div>
 
-          </p>
-      </div>
-      
+                <div class="col-sm-2">
+                    <img src="https://s13.postimg.org/hk02amcqv/2.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s13.postimg.org/a844blxc7/1.png">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://s13.postimg.org/eiis772fb/2.jpg">
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="speaker row">
-      <div class="col-sm-2">
-        <img src="https://s16.postimg.org/pxqz1qeol/speaker3.png">
-      </div>
-      <div class="col-sm-8">
-        <h5>Arun Nair (Heading Nasscom 10000 Startups Cochin)</h5>
-          <p>
-            10000startups is one of India's most ambitious startup program. www.10000startups.com 10,000 Start­ups is an initiative of NASSCOM with Google as prime sponsor. It is aimed at incubating, funding and supporting 10,000 technology start­ups in India over the next ten years
-          </p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- speakers end -->
-<!--tweetbutton starts-->
-<div class="container-fluid" id="tweetsection">
-  <h2 class="text-center">ITS TIME TO SHOUT OUT.</h2>
-  <button><a href="https://twitter.com/intent/tweet?button_hashtag=AgritechHackathon">#TWEETABOUTUS</a></button>
-</div>
-<!--tweet button ends-->
-<!--prize starts -->
-<div id="prize">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<img src="https://s10.postimg.org/8bzvjrf95/hackster.png">
-				<h3>25000 + Hackster.io kit</h3>
-				<p>We are giving the &#8377 25000 and a Hackster Kit for the team who get first prize</p>
-			</div>
-			<div class="col-sm-6">
-				<img src="https://s10.postimg.org/e1g442lfd/images.png">
-				<h3>10000 + Raspberry PI 3</h3>
-				<p>We are giving the &#8377 10000 and a Raspberry PI 3 for the team who get second prize</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!--prize end -->
-
-<!--footer begins here-->
-<div class="container-fluid" id="footer">
-  <div class="row">
-<div class="col-sm-3 col-sm-offset-1 textpart" id="register">
-  <h3>REGISTER YOUR WAY IN.</h3>
-  <a href="https://docs.google.com/forms/d/1fJFJlhUAXHUy1zpLNegc2kL9oYiHKFNMRQ57zjhHVLY/">Fill Up The Form Here</a>
-
-
-</div>
-    <div class="col-sm-3 col-sm-offset-5 textpart" id="contactdetails">
-      <h3>CONTACT US.</h3>
-      <h4> Haani Hashim svp</h4>
-      <h4> +91 944 738 1142</h4>
-     <a href="mailto:haani@hack4agriculture.com">haani@hack4agriculture.com</a>
-
-    </div>
-  </div>
-</div>
-
-<!-- patner area -->
-<div id="partner">
-  <div class="container">
-  <h3>Our Backbones :</h3>
-  <img class="sum" src="https://s18.postimg.org/dh8ujball/013eee39.png">
-    <div class="row">
-      <div class="col-sm-2">
-        <img  src="assets/hackster.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="assets/businessincubationcenter.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/yaxkza98l/3.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/wkejxsrph/4.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/h07679hl1/5.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/qm5c1ay4l/6.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/63afw8k79/7.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/6u3620mkl/8.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s16.postimg.org/o8neaajph/9.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s13.postimg.org/wrg1uz4lj/1.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s13.postimg.org/hk02amcqv/2.png">
-      </div>
-      <div class="col-sm-2">
-        <img  src="https://s13.postimg.org/9sjcc28lj/3.png">
-      </div>
-    </div>
-  </div>
-</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script> 
-  </body>
-</html>
+    <script src="js/main.js"></script>
+</body>
 
+</html>
